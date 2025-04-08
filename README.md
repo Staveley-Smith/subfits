@@ -12,10 +12,17 @@ Limits: maximum number of dimensions = 9; maximum voxels per chunk (approx) 250e
 Useage: subfits -i <input file> -o <output file> -p/w <x1,x2,y1,y2,z1,z2> -s <dx,dy,dz> -r OR subfits --in=<input file> --o=<output file> --pix/world=<x1,x2,y1,y2,z1,z2> --skip=<dx,dy,dz> -r 
 
 OPTION   DESCRIPTION
+
 ?        help
+
 in=      input file (FITS format)
+
 out=     output file
+
 pix=     pixels (e.g. 0,100,0,100,0,10)
+
 remove   remove dummy axes
+
 skip=    skip (e.g. 2,2,2)
+
 world=   world (e.g. 120.0,100.0,-20,-10.0,0,0)
