@@ -19,6 +19,6 @@ OPTIONS          DESCRIPTION
 -o     out=     output file
 -p     pix=     pixels (e.g. 0,100,0,100,0,10)
 -r     remove   remove dummy axes
--d     skip=    skip (e.g. 2,2,2)
+-s     skip=    skip (e.g. 2,2,2)
 -w     world=   world (e.g. 120.0,100.0,-20,-10.0,0,0)
 ```
